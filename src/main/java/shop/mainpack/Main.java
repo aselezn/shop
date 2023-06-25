@@ -1,19 +1,18 @@
 package shop.mainpack;
 
 import shop.db.DataBaseConnector;
-import shop.models.Product;
+import shop.gui.ShopApp;
 
+import javax.swing.*;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.Arrays;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
 
-        DataBaseConnector connector = new DataBaseConnector();
-        connector.connect();
-        Connection connection = connector.getConnection();
+//        DataBaseConnector connector = new DataBaseConnector();
+//        connector.connect();
+//        Connection connection = connector.getConnection();
 
 
 //      1. Вывести коллекцию продуктов
@@ -35,6 +34,10 @@ public class Main {
 //        Repository.registerOrder(connection, customerFullName, phone, email, customerAddress, productIds, quantities);
 //
 //        System.out.println("Order registered successfully.");
+
+//        4. GUI. В папке реусросов есть скрипт по созданию моей БД, а так же файл с пропертями для подключения к БД
+//        SwingUtilities.invokeLater(() -> new ShopApp().shopApp());
+
 
 
     }
