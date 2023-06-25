@@ -109,11 +109,10 @@ public class ShopApp {
             dataTable.setModel(tableModel);
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Ошибка при загрузке данных: " + ex.getMessage(), "Ошибка", JOptionPane.ERROR_MESSAGE);
         }
 
     }
-
 
 
 }

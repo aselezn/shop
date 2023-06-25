@@ -36,7 +36,7 @@ public class Main {
 //        System.out.println("Order registered successfully.");
 
 //        4. GUI. В папке реусросов есть скрипт по созданию моей БД, а так же файл с пропертями для подключения к БД
-//        SwingUtilities.invokeLater(() -> new ShopApp().shopApp());
+        SwingUtilities.invokeLater(() -> new ShopApp().shopApp());
 
 
 
