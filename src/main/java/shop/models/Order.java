@@ -15,6 +15,7 @@ public class Order {
     private Date shippingDate;
 
 
+
     public Order(long id, Date createDate, String customerFullName, String phone, String email,
                  String customerAddress, String status, Date shippingDate) {
         this.id = id;
