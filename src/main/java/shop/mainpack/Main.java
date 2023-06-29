@@ -2,10 +2,13 @@ package shop.mainpack;
 
 import shop.db.DataBaseConnector;
 import shop.gui.ShopApp;
+import shop.models.Product;
 
 import javax.swing.*;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
@@ -36,7 +39,7 @@ public class Main {
 //        System.out.println("Order registered successfully.");
 
 //        4. GUI. В папке реусросов есть скрипт по созданию моей БД, а так же файл с пропертями для подключения к БД
-        SwingUtilities.invokeLater(() -> new ShopApp().shopApp());
+//        SwingUtilities.invokeLater(() -> new ShopApp().shopApp());
 
 
 
